@@ -432,23 +432,15 @@ S: Schreiben
 
 L: Lesen
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Pfad/Benutzergruppe**                                                                  **Administrators**   **Geschäftsleitung**   **Finanzbuchhaltung**   **Marketing/Sales**   **Spedition**   **Handwerker**
-  ---------------------------------------------------------------------------------------- -------------------- ---------------------- ----------------------- --------------------- --------------- ----------------
-  [\\\\WS_SRV1\\WS-Daten\\Buchhaltung](file:///\\WS_SRV1\WS-Daten\Buchhaltung)             V                    L, S                   L, S                                                          
-
-  [\\\\WS_SRV1\\WS-Daten\\Finanzen](file:///\\WS_SRV1\WS-Daten\Finanzen)                   V                    L, S                   L, S                                                          
-
-  [\\\\WS_SRV1\\WS-Daten\\Geschäftsleitung](file:///\\WS_SRV1\WS-Daten\Geschäftsleitung)   V                    L, S                                                                                 
-
-  [\\\\WS_SRV1\\WS-Daten\\Kunden](file:///\\WS_SRV1\WS-Daten\Kunden)                       V                    L, S                   L                       L, S                  L, S            L
-
-  [\\\\WS_SRV1\\WS-Daten\\Lieferanten](file:///\\WS_SRV1\WS-Daten\Lieferanten)             V                    L, S                   L                       L, S                  L, S            L
-
-  [\\\\WS_SRV1\\WS-Daten\\Mkt+Sales](file:///\\WS_SRV1\WS-Daten\Mkt+Sales)                 V                    L, S                                           L, S                                  
-
-  [\\\\WS_SRV1\\WS-Daten\\Templates](file:///\\WS_SRV1\WS-Daten\Templates)                 V                    L                      L                       L, S                  L               L
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|**Pfad/Benutzergruppe**|**Administrators**|**Geschäftsleitung**|**Finanzbuchhaltung**|**Marketing/Sales**|**Spedition**|**Handwerker**|
+|-----------------------|------------------|--------------------|---------------------|-------------------|-------------|--------------|
+|[\\\\WS_SRV1\\WS-Daten\\Buchhaltung](file:///\\WS_SRV1\WS-Daten\Buchhaltung)|V|L, S|L, S|    
+|[\\\\WS_SRV1\\WS-Daten\\Finanzen](file:///\\WS_SRV1\WS-Daten\Finanzen)|V|L, S|L, S|                                                     
+|[\\\\WS_SRV1\\WS-Daten\\Geschäftsleitung](file:///\\WS_SRV1\WS-Daten\Geschäftsleitung)|V|L, S|
+|[\\\\WS_SRV1\\WS-Daten\\Kunden](file:///\\WS_SRV1\WS-Daten\Kunden)|V|L, S|L|L, S|L, S|L|
+|[\\\\WS_SRV1\\WS-Daten\\Lieferanten](file:///\\WS_SRV1\WS-Daten\Lieferanten)|V|L, S|L|L, S|L, S|L|
+|[\\\\WS_SRV1\\WS-Daten\\Mkt+Sales](file:///\\WS_SRV1\WS-Daten\Mkt+Sales)|V|L, S||L, S|
+|[\\\\WS_SRV1\\WS-Daten\\Templates](file:///\\WS_SRV1\WS-Daten\Templates)|V|L|L|L, S|L|L|
 
 ## 5.3 Dateiablage
 
