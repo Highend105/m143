@@ -278,32 +278,28 @@ Gateways zu betrachten:
 
 Der Server läuft über das VMnet2, welches wie folgt eingestellt wurde:
 
-![](./media/image3.png){width="6.3in" height="3.022222222222222in"}
+![](./media/image3.png)
 
 Konfiguration des DNS von WS.local (Domain für WhiteSpace):
 
-![](./media/image4.png){width="6.3in" height="1.9020833333333333in"}
+![](./media/image4.png)
 
 Bezüglich des DNS wurde folgender Scope aktiviert:
 
-![](./media/image5.png){width="6.3in" height="2.7631944444444443in"}
+![](./media/image5.png)
 
 Wie schon beschrieben, wurde der Laptop von Peter Meier der Domäne
 hinzugefügt und ein User-Profile erstellt:
 
-![](./media/image6.png){width="5.121998031496063in"
-height="2.9483103674540683in"}
+![](./media/image6.png)
 
-![](./media/image7.png){width="5.180524934383202in"
-height="2.7638593613298337in"}
+![](./media/image7.png)
 
 Dies ist auch direkt auf dem Client zu sehen:
 
-![](./media/image8.png){width="2.5167661854768153in"
-height="2.193847331583552in"}![Ein Bild, das Text, Schrift, Zahl,
+![](./media/image8.png)![Ein Bild, das Text, Schrift, Zahl,
 Screenshot enthält. Automatisch generierte
-Beschreibung](./media/image9.png){width="3.7394783464566927in"
-height="2.168583770778653in"}
+Beschreibung](./media/image9.png)
 
 ## 4.3 Speichersysteme
 
@@ -329,22 +325,21 @@ Nachfolgend die Screenshots direkt aus der Umgebung, um die
 Speichersysteme bildlich darstellen zu können. Speichersysteme des
 Servers:
 
-![](./media/image10.png){width="3.9588353018372704in"
-height="2.4891087051618546in"}
+![](./media/image10.png)
 
 Zusätzlich die Backup-Disk (Disk 1), welche nicht direkt im Explorer
 erkennbar ist:
 
-![](./media/image11.png){width="6.3in" height="3.439583333333333in"}
+![](./media/image11.png)
 
 Der Zugriff via File-Share auf die produktiven Daten des E: aus Sicht
 von Peter Meier:
 
-![](./media/image12.png){width="6.3in" height="2.495833333333333in"}
+![](./media/image12.png)
 
 Zugehörig die Ordnerstruktur:
 
-![](./media/image13.png){width="6.3in" height="2.3826388888888888in"}
+![](./media/image13.png)
 
 ## 4.4 Anwendersoftware
 
@@ -362,8 +357,7 @@ Laptop verwendet werden:
 
 ![Ein Bild, das Screenshot, Text, Betriebssystem, Wasser enthält.
 Automatisch generierte
-Beschreibung](./media/image14.png){width="1.6970702099737534in"
-height="1.065706474190726in"}
+Beschreibung](./media/image14.png)
 
 ## 4.5 Logischer Netzwerkplan
 
@@ -379,8 +373,7 @@ eingegangen.
 
 ![Ein Bild, das Text, Diagramm, Screenshot, Design enthält. Automatisch
 generierte
-Beschreibung](./media/image15.png){width="5.413888888888889in"
-height="4.903652668416448in"}
+Beschreibung](./media/image15.png)
 
 # 5. Systemverwaltung
 
@@ -395,15 +388,13 @@ jegliche Anliegen auf den Server zugreifen und diesen Remote verwalten.
 
 VMnet2 mit Freischaltung des Ports für RDP:
 
-![](./media/image16.png){width="2.3162740594925633in"
-height="1.2160958005249345in"}
+![](./media/image16.png)
 
 Aufbau einer RDP-Verbindung funktioniert, da Login-Fenster sichtbar:
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält.
 Automatisch generierte
-Beschreibung](./media/image17.png){width="4.0010761154855645in"
-height="2.046846019247594in"}
+Beschreibung](./media/image17.png)
 
 ## 5.2 Verzeichnis-, Rechte- und Benutzerstrukturen
 
@@ -417,21 +408,15 @@ können so neue User einfacher erfasst und gleich einer Gruppe mit
 entsprechenden Berechtigungen zugewiesen werden. In der Tabelle sehen
 wir daher auch einige leere Felder.
 
-  -----------------------------------------------------------------------
-  **Gruppen**             **IT-Verwaltung**       **CEO (Peter Meier)**
-  ----------------------- ----------------------- -----------------------
-  Administrators          X                       
-
-  Geschäftsleitung                                X
-
+ 
+  |**Gruppen**            |      **IT-Verwaltung** |   **CEO (Peter Meier)**|
+  |-----------------------| -----------------------| -----------------------|
+  |Administrators         |           X            |                        |
+  Geschäftsleitung        |                        |            X           |
   Finanzbuchhaltung                               
-
   Marketing und Sales                             
-
   Spedition                                       
-
   Handwerker                                      
-  -----------------------------------------------------------------------
 
 Um nun den Gruppen entsprechende Berechtigungen zu setzen, wurde nach
 der folgenden Tabelle vorgegangen. Ausserdem zu erwähnen ist, dass kein
