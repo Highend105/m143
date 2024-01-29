@@ -1131,35 +1131,15 @@ monatlich ein Check mit einer Checkliste durchgeführt wird. Nachfolgend
 die Liste der Checks, welche monatlich durch den IT-Admin direkt
 durchgeführt und protokolliert werden.
 
-  ----------------------------------------------------------------------------------
-  **Schritt**   **Tätigkeit**                                            **Check**
-  ------------- -------------------------------------------------------- -----------
-  1             Auf dem Server einloggen und im Drive E: prüfen, ob die  
-                stündlichen Shadow Copies durchgeführt werden            
-
-  2             Laufwerk C und E prüfen, ob mindestens 20% freier        
-                Speicherplatz, sofern unterschritten, den                
-                IT-Administrator kontaktieren                            
-
-  3             Windows Server Backup Konsole öffnen und prüfen, ob die  
-                Backups korrekt durchgeführt wurden. Bei Fehlern,        
-                IT-Administrator kontaktieren                            
-
-  4             Auf dem Server in den «Windows Updates» prüfen, ob der   
-                Server auf dem aktuellsten Stand aktualisiert ist.       
-
-  5             Auf dem Notebook des CEO die Updates jetzt manuell       
-                durchführen                                              
-
-  6             In die Acronis Cloud einloggen und prüfen, ob Backups    
-                korrekt durchgeführt wurden, bei Fehlern den             
-                IT-Administrator kontaktieren.                           
-
-  7             In der Acronis Cloud prüfen, ob noch genügend            
-                Speicherplatz für die Backups vorhanden ist. Allenfalls  
-                Speicherplatz ergänzen oder in Absprache mit dem CEO die 
-                Backuppläne ändern und dokumentieren.                    
-  ----------------------------------------------------------------------------------
+  |**Schritt**|   **Tätigkeit**                                        |   **Check**|
+  |-----------|--------------------------------------------------------|------------|
+  |1|             Auf dem Server einloggen und im Drive E: prüfen, ob die stündlichen Shadow Copies durchgeführt werden|            
+  |2| Laufwerk C und E prüfen, ob mindestens 20% freier Speicherplatz, sofern unterschritten, den IT-Administrator kontaktieren |                           
+  |3|             Windows Server Backup Konsole öffnen und prüfen, ob die Backups korrekt durchgeführt wurden. Bei Fehlern, IT-Administrator kontaktieren |                           
+  |4|             Auf dem Server in den «Windows Updates» prüfen, ob der Server auf dem aktuellsten Stand aktualisiert ist.|       
+  |5|             Auf dem Notebook des CEO die Updates jetzt manuell durchführen|                                              
+  |6|             In die Acronis Cloud einloggen und prüfen, ob Backups korrekt durchgeführt wurden, bei Fehlern den IT-Administrator kontaktieren.|                           
+  |7|             In der Acronis Cloud prüfen, ob noch genügend Speicherplatz für die Backups vorhanden ist. Allenfalls Speicherplatz ergänzen oder in Absprache mit dem CEO die Backuppläne ändern und dokumentieren.|                    
 
 Die ausgefüllte Checkliste wird dem CEO retourniert. Allfällige Probleme
 werden thematisiert und in der Checkliste aufgeführt. So soll der CEO
