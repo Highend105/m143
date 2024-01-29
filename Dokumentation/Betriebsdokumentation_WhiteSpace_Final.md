@@ -2,91 +2,75 @@
 
 # Inhaltsverzeichnis
 
-[1. Einführung](#einführung)
+[1. Einführung](#1-einführung)
 
-[1.1 Einführung mit Zielsetzung](#einführung-mit-zielsetzung)
+[1.1 Einführung mit Zielsetzung](#11-einführung-mit-zielsetzung)
 
-[2. Organisation](#organisation)
+[2. Organisation](#2-organisation)
 
-[2.1 Betriebsphilosophie](#betriebsphilosophie)
+[2.1 Betriebsphilosophie](#21-betriebsphilosophie)
 
-[2.2 Verantwortlichkeiten](#verantwortlichkeiten)
+[2.2 Verantwortlichkeiten](#22-verantwortlichkeiten)
 
-[3. Bestehende Infrastruktur](#bestehende-infrastruktur)
+[3. Bestehende Infrastruktur](#3-bestehende-infrastruktur)
 
-[3.1 Lokalitäten [3](#lokalitäten)](#lokalitäten)
+[3.1 Lokalitäten](#31-lokalitäten)
 
-[3.2 Systeme [3](#systeme)](#systeme)
+[3.2 Systeme](#32-systeme)
 
-[3.2.1 Netzwerke [3](#netzwerke)](#netzwerke)
+[3.2.1 Netzwerke](#321-netzwerke)
 
-[3.2.2 Computerhardware [3](#computerhardware)](#computerhardware)
+[3.2.2 Computerhardware](#322-computerhardware)
 
-[3.3 Software [3](#software)](#software)
+[3.3 Software](#33-software)
 
-[4. Definitive Erweiterungen
-[4](#definitive-erweiterungen)](#definitive-erweiterungen)
+[4. Definitive Erweiterungen](#4-definitive-erweiterungen)
 
-[4.1 Technische Beschreibung der Systeme
-[4](#technische-beschreibung-der-systeme)](#technische-beschreibung-der-systeme)
+[4.1 Technische Beschreibung der Systeme](#41-technische-beschreibung-der-systeme)
 
-[4.2 Betriebssysteme [4](#betriebssysteme)](#betriebssysteme)
+[4.2 Betriebssysteme](#42-betriebssysteme)
 
-[4.3 Speichersysteme [7](#speichersysteme)](#speichersysteme)
+[4.3 Speichersysteme](#43-speichersysteme)
 
-[4.4 Anwendersoftware [9](#anwendersoftware)](#anwendersoftware)
+[4.4 Anwendersoftware](#44-anwendersoftware)
 
-[4.5 Logischer Netzwerkplan
-[9](#logischer-netzwerkplan)](#logischer-netzwerkplan)
+[4.5 Logischer Netzwerkplan](#45-logischer-netzwerkplan)
 
-[5. Systemverwaltung [10](#systemverwaltung)](#systemverwaltung)
+[5. Systemverwaltung](#5-systemverwaltung)
 
-[5.1 Der Zugang zum System
-[10](#der-zugang-zum-system)](#der-zugang-zum-system)
+[5.1 Der Zugang zum System](#51-der-zugang-zum-system)
 
-[5.2 Verzeichnis-, Rechte- und Benutzerstrukturen
-[10](#verzeichnis--rechte--und-benutzerstrukturen)](#verzeichnis--rechte--und-benutzerstrukturen)
+[5.2 Verzeichnis-, Rechte- und Benutzerstrukturen)](#52-verzeichnis--rechte--und-benutzerstrukturen)
 
-[5.3 Dateiablage [11](#dateiablage)](#dateiablage)
+[5.3 Dateiablage](#53-dateiablage)
 
-[5.4 Aktualisierung der Systeme
-[11](#aktualisierung-der-systeme)](#aktualisierung-der-systeme)
+[5.4 Aktualisierung der Systeme](#54-aktualisierung-der-systeme)
 
-[9. Datensicherung [12](#datensicherung)](#datensicherung)
+[6. Datensicherung](#6-datensicherung)
 
-[9.1 Mögliche Ursachen, die zum Datenverlust führen
-[12](#mögliche-ursachen-die-zum-datenverlust-führen)](#mögliche-ursachen-die-zum-datenverlust-führen)
+[6.1 Mögliche Ursachen, die zum Datenverlust führen](#61-mögliche-ursachen-die-zum-datenverlust-führen)
 
-[9.2 Art der Datensicherung
-[12](#art-der-datensicherung)](#art-der-datensicherung)
+[6.2 Art der Datensicherung](#62-art-der-datensicherung)
 
-[9.2.1 Shadow Copies [13](#shadow-copies)](#shadow-copies)
+[6.2.1 Shadow Copies](#621-shadow-copies)
 
-[9.2.2 Windows Server Backup
-[14](#windows-server-backup)](#windows-server-backup)
+[6.2.2 Windows Server Backup](#622-windows-server-backup)
 
-[9.2.3 Cloud Backup mit Acronis
-[17](#cloud-backup-mit-acronis)](#cloud-backup-mit-acronis)
+[6.2.3 Cloud Backup mit Acronis](#623-cloud-backup-mit-acronis)
 
-[9.2.4 Vorteile einer Automatisierung
-[22](#vorteile-einer-automatisierung)](#vorteile-einer-automatisierung)
+[6.2.4 Vorteile einer Automatisierung](#624-vorteile-einer-automatisierung)
 
-[9.3 Daten, die gesichert werden
-[22](#daten-die-gesichert-werden)](#daten-die-gesichert-werden)
+[6.3 Daten, die gesichert werden](#63-daten-die-gesichert-werden)
 
-[9.4 Regelung zur Wiederherstellung von Datenbeständen
-[23](#regelung-zur-wiederherstellung-von-datenbeständen)](#regelung-zur-wiederherstellung-von-datenbeständen)
+[6.4 Regelung zur Wiederherstellung von Datenbeständen](#64-regelung-zur-wiederherstellung-von-datenbeständen)
 
-[9.4.1 Disaster Recovery -- Testszenario
-[24](#disaster-recovery-testszenario)](#disaster-recovery-testszenario)
+[6.4.1 Disaster Recovery -- Testszenario](#641-disaster-recovery----testszenario)
 
-[10. Qualitätskontrolle [28](#qualitätskontrolle)](#qualitätskontrolle)
+[7. Qualitätskontrolle](#7-qualitätskontrolle)
 
-[10.1 Datenschutzbestimmungen
-[29](#datenschutzbestimmungen)](#datenschutzbestimmungen)
+[7.1 Datenschutzbestimmungen](#71-datenschutzbestimmungen)
 
-[10.2 Geschäftsbücherverordnung
-[30](#geschäftsbücherverordnung)](#geschäftsbücherverordnung)
+[7.2 Geschäftsbücherverordnung](#72-geschäftsbücherverordnung)
 
 # 1. Einführung
 
@@ -471,9 +455,9 @@ IT-Verwaltung genug Zeit, um die Serversysteme zu updaten.
 Die Clients sollen vorweg geupdatet werden, die Windows-Updates werden
 dabei von Microsoft direkt bezogen.
 
-# 9. Datensicherung
+# 6. Datensicherung
 
-## 9.1 Mögliche Ursachen, die zum Datenverlust führen
+## 6.1 Mögliche Ursachen, die zum Datenverlust führen
 
 Datenverlust in einem kleinen Gipserunternehmen kann aus verschiedenen
 Gründen auftreten. Eine der häufigsten Ursachen liegt in unzureichenden
@@ -506,7 +490,7 @@ von rechtlichen Konsequenzen, die nicht nur finanzielle Verluste,
 sondern auch den Verlust sensibler Unternehmensdaten zur Folge haben
 können.
 
-## 9.2 Art der Datensicherung
+## 6.2 Art der Datensicherung
 
 Um Daten der «WhiteSpace» sichern zu können, wurde prinzipiell die 3-2-1
 Backupstrategie angewendet, dabei wurden spezifisch einige Änderungen
@@ -529,7 +513,7 @@ des Servers «WS_SRV1» sind.
     der Firma oder Ransomware Angriff. Zugriff auf das System aus der
     Cloud innert kurzer Zeit.
 
-### 9.2.1 Shadow Copies
+### 6.2.1 Shadow Copies
 
 In einem ersten Schritt hat man sich auf Shadow Copies konzentriert. Die
 Kopien werden vom gesamten Laufwerk E: des Servers «WS_SRV1» erstellt
@@ -563,7 +547,7 @@ stündlich vorhanden sein, hat etwas mit dem Backup nicht funktioniert.
 Automatisch generierte
 Beschreibung](./media/image22.png)
 
-####  9.2.1.1 Wiederherstellung der Daten mit Shadow Copies
+####  6.2.1.1 Wiederherstellung der Daten mit Shadow Copies
 
 Um die einzelnen Dateien wiederherstellen zu können, kann unter den
 Diskeigenschaften das Fenster «Previous Versions» angeklickt werden.
@@ -576,7 +560,7 @@ Benutzer erledigt werden.
 Automatisch generierte
 Beschreibung](./media/image23.png)
 
-### 9.2.2 Windows Server Backup
+### 6.2.2 Windows Server Backup
 
 Die Serversicherung ist ein wichtiger Teil des Backupkonzepts. Damit
 können einzelne Files, Disks oder sogar der ganze Server
@@ -626,7 +610,7 @@ die Log-Einträge gespeichert sind.
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält.
 Automatisch generierte Beschreibung](./media/image25.png)
 
-####  9.2.2.1 Wiederherstellung der Daten mit Windows Server Backup
+####  6.2.2.1 Wiederherstellung der Daten mit Windows Server Backup
 
 Um eine Festplatte wiederherstellen zu können, geht man in die Windows
 Server Backup App, und wählt dort die Option «Recover». Nun kann man
@@ -681,7 +665,7 @@ Screenshot wird das letzte Backup verwendet. Danach wird der komplette
 Server auf diesen Stand gerestored und wir können unsere Umgebung wieder
 betreiben.
 
-### 9.2.3 Cloud Backup mit Acronis
+### 6.2.3 Cloud Backup mit Acronis
 
 Die Umgebung der «WhiteSpace» wird mit dem Cloud-Tool Acronis extern in
 die Cloud gesichert. Das Tool wir auf allen Clients sowie dem Server
@@ -797,7 +781,7 @@ hat.
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 Automatisch generierte Beschreibung](./media/image41.png)
 
-####  9.2.3.1 Wiederherstellung der Daten mit Acronis
+####  6.2.3.1 Wiederherstellung der Daten mit Acronis
 
 Die Datenwiederherstellung mit Acronis fokussiert sich insbesondere auf
 das «Disaster Recovery». Dieses wird jedoch in einem späteren Kapitel
@@ -843,7 +827,7 @@ Verfügung gestellt.
 generierte
 Beschreibung](./media/image44.png)
 
-###  9.2.4 Vorteile einer Automatisierung
+###  6.2.4 Vorteile einer Automatisierung
 
 In dem Kontext eines IT-Administrators für ein kleines Gipserunternehmen
 in der Schweiz stellen sich die Vorteile der Backup-Automatisierung als
@@ -878,7 +862,7 @@ kann die IT-Abteilung besser auf aktuelle Bedrohungen reagieren, die
 IT-Infrastruktur optimieren und insgesamt die IT-Sicherheit des
 Gipserunternehmens stärken.
 
-## 9.3 Daten, die gesichert werden
+## 6.3 Daten, die gesichert werden
 
 Da das Gipserunternehmen «WhiteSpace» noch sehr wenig mit der IT in
 Berührung war, wurden die verfügbaren Speicherplätze generell eher
@@ -926,7 +910,7 @@ verantwortlich dafür, dies wurde dem Aufraggeber klar kommuniziert und
 ist auch im SLA festgehalten. Bei einem Verlust dieser Daten kann somit
 keine Wiederherstellung garantiert werden.
 
-## 9.4 Regelung zur Wiederherstellung von Datenbeständen
+## 6.4 Regelung zur Wiederherstellung von Datenbeständen
 
 In dieser Dokumentation wurden alle relevanten Datensicherungsprozesse,
 respektive die Wiederherstellung der beinhalteten Daten, thematisiert
@@ -960,7 +944,7 @@ dabei auf ein Minimum reduziert werden. Die technischen
 Verantwortlichkeiten liegen beim IT-Admin, der CEO, Peter Meier, ist für
 die Betriebsorganisation in der Verantwortung.
 
-###  9.4.1 Disaster Recovery -- Testszenario
+###  6.4.1 Disaster Recovery -- Testszenario
 
 In diesem Abschnitt soll es um ein konkretes Testszenario gehen, welches
 von einem absoluten Worst-Case für die Umgebung der «WhiteSpace»
@@ -1109,7 +1093,7 @@ halten.
   |12|            Checks für Clients: Können Sie auf File-Shares und Internet zugreifen?|                                      
   |13|            Längerfristige Überwachung der Backups: Werden diese erfolgreich durchgeführt und gespeichert?|
 
-# 10. Qualitätskontrolle
+# 7. Qualitätskontrolle
 
 Um gewisse Standards halten zu können, werden in diesem Abschnitt die
 Qualitätssicherungsmerkmale thematisiert. Da sich dieses Konzept auf das
@@ -1144,7 +1128,7 @@ monatlichen einen Überblick von dem Systemzustand erhalten. Grössere
 können Ende Jahr, in einer Besprechung, konkretisiert und bestimmt
 werden.
 
-## 10.1 Datenschutzbestimmungen
+## 7.1 Datenschutzbestimmungen
 
 Die Erhebung und Verarbeitung von Daten, erfolgt auf Grundlagen des
 Schweizer Bundesgesetz über Datenschutz. Da die «WhiteSpace» in ihrem
@@ -1181,7 +1165,7 @@ beschränkt werden. Das Backup-Konzept der «WhiteSpace» hält diesen
 Anforderungen stand und kann, auch bei grösseren Ausfällen, einen
 nahtlosen Betrieb gewährleisten.
 
-## 10.2 Geschäftsbücherverordnung
+## 7.2 Geschäftsbücherverordnung
 
 Die GebüV ist eine weitere rechtliche Grundlage, welche für das
 Unternehmen «WhiteSpace» relevant ist. Gemäss Gesetz gilt eine
