@@ -450,8 +450,7 @@ Die Datenablage des produktiven Geschäfts findet zentral auf dem Server
 sie in KMUs üblich ist.
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. Automatisch
-generierte Beschreibung](./media/image18.png){width="6.3in"
-height="2.7493055555555554in"}
+generierte Beschreibung](./media/image18.png)
 
 ## 5.4 Aktualisierung der Systeme
 
@@ -466,8 +465,7 @@ installiert werden:
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. Automatisch
 generierte
-Beschreibung](./media/image19.png){width="1.850670384951881in"
-height="1.9426738845144358in"}
+Beschreibung](./media/image19.png)
 
 Die Systeme der «WhiteSpace» sollen während den Betriebsferien im Winter
 erweitert oder aktualisiert werden. Während dieser Zeit ist die Firma
@@ -548,8 +546,7 @@ gesetzt, die alten Kopien werden fortlaufend gelöscht bei Platzbedarf.
 Folgend die exakte Konfiguration:
 
 ![Ein Bild, das Text, Software, Computersymbol, Webseite enthält.
-Automatisch generierte Beschreibung](./media/image20.png){width="6.3in"
-height="3.1590277777777778in"}
+Automatisch generierte Beschreibung](./media/image20.png)
 
 Die regelmässige Erstellung solcher Kopien ist sehr wichtig. Es wurde
 deshalb entschieden, nachfolgenden Zeitplan zu erstellen, welcher den
@@ -559,8 +556,7 @@ hier nochmal zu sehen:
 
 ![Ein Bild, das Text, Screenshot, Display, Zahl enthält. Automatisch
 generierte
-Beschreibung](./media/image21.png){width="1.5080457130358704in"
-height="1.747095363079615in"}
+Beschreibung](./media/image21.png)
 
 Für die Überprüfung, ob ein Backup erfolgreich war, können wir die
 Eigenschaften des E: betrachten, unter «Previous Versions» finden wird
@@ -569,8 +565,7 @@ stündlich vorhanden sein, hat etwas mit dem Backup nicht funktioniert.
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Software enthält.
 Automatisch generierte
-Beschreibung](./media/image22.png){width="1.6213167104111985in"
-height="2.382159886264217in"}
+Beschreibung](./media/image22.png)
 
 ####  9.2.1.1 Wiederherstellung der Daten mit Shadow Copies
 
@@ -583,8 +578,7 @@ Benutzer erledigt werden.
 
 ![Ein Bild, das Text, Software, Computersymbol, Zahl enthält.
 Automatisch generierte
-Beschreibung](./media/image23.png){width="3.6557338145231846in"
-height="2.034186351706037in"}
+Beschreibung](./media/image23.png)
 
 ### 9.2.2 Windows Server Backup
 
@@ -618,8 +612,7 @@ Folgend die exakten Konfigurationen des Windows Server Backups:
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 Automatisch generierte
-Beschreibung](./media/image24.png){width="5.704513342082239in"
-height="1.8971030183727033in"}
+Beschreibung](./media/image24.png)
 
 Um den Erfolg eines Backups zu überprüfen, öffnen wir die Windows Server
 Backup Applikation und schauen uns dort die Log-Einträge an. Optional
@@ -635,8 +628,7 @@ list of all backed up files», es öffnet sich ein Notepad, auf welchem
 die Log-Einträge gespeichert sind.
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält.
-Automatisch generierte Beschreibung](./media/image25.png){width="6.3in"
-height="3.43125in"}
+Automatisch generierte Beschreibung](./media/image25.png)
 
 ####  9.2.2.1 Wiederherstellung der Daten mit Windows Server Backup
 
@@ -650,8 +642,7 @@ z. Bsp. die produktiven Daten E: darauf restoren.
 
 ![Ein Bild, das Text, Software, Computersymbol, Multimedia-Software
 enthält. Automatisch generierte
-Beschreibung](./media/image26.png){width="6.3in"
-height="2.6069444444444443in"}
+Beschreibung](./media/image26.png)
 
 Für einen kompletten Server-Restore muss man etwas anders vorgehen. Es
 muss vorerst ein ISO-File eines WIN-Server 22 vorhanden sein, welches
@@ -665,24 +656,21 @@ folgendes anwählen:
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält.
 Automatisch generierte
-Beschreibung](./media/image27.png){width="2.4381517935258095in"
-height="1.8331835083114612in"}
+Beschreibung](./media/image27.png)
 
 Unbedingt auf «Repair your Computer» drücken, da sonst der Server neu
 installiert wird:
 
 ![Ein Bild, das Text, Screenshot, Schrift, Logo enthält. Automatisch
 generierte
-Beschreibung](./media/image28.png){width="3.1661111111111113in"
-height="1.7352176290463692in"}
+Beschreibung](./media/image28.png)
 
 Nun kommt man in ein Menü, bei welchem man «System Image Recovery»
 anklickt.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Design enthält. Automatisch
 generierte
-Beschreibung](./media/image29.png){width="2.1269160104986877in"
-height="1.2417257217847768in"}
+Beschreibung](./media/image29.png)
 
 Der Server scannt nun seine angeschlossenen Disks, da wir unsere externe
 Backup Disk auch angeschlossen haben, findet er diese und folgendes
@@ -690,8 +678,7 @@ Fenster poppt auf:
 
 ![Ein Bild, das Text, Screenshot, Betriebssystem, Software enthält.
 Automatisch generierte
-Beschreibung](./media/image30.png){width="2.0251377952755907in"
-height="1.6870034995625547in"}
+Beschreibung](./media/image30.png)
 
 Nun können wir auf die gespeicherten «System Images» zurücksetzen, im
 Screenshot wird das letzte Backup verwendet. Danach wird der komplette
@@ -715,23 +702,20 @@ heruntergeladen werden:
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
 generierte
-Beschreibung](./media/image31.png){width="2.9350568678915137in"
-height="1.611499343832021in"}
+Beschreibung](./media/image31.png)
 
 Das heruntergeladene Programm wird ausgeführt:
 
 ![Ein Bild, das Text, Screenshot, Schrift, Symbol enthält. Automatisch
 generierte
-Beschreibung](./media/image32.png){width="2.217919947506562in"
-height="1.4948031496062992in"}
+Beschreibung](./media/image32.png)
 
 Wir sehen nun, dass der Acronis Agent läuft und bereit ist für
 verschiedene Tasks:
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Software enthält.
 Automatisch generierte
-Beschreibung](./media/image33.png){width="1.2689982502187227in"
-height="1.8641929133858268in"}
+Beschreibung](./media/image33.png)
 
 Diese Tasks, worunter auch das Backup fällt, werden in der Webkonsole
 von Acronis definiert. So genannte «Schutzpläne» können erstellt und
@@ -739,8 +723,7 @@ angepasst werden. Für unser Server Backup hat man sich für folgenden
 Plan entschieden:
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. Automatisch
-generierte Beschreibung](./media/image34.png){width="6.3in"
-height="3.2840277777777778in"}
+generierte Beschreibung](./media/image34.png)
 
 Bei einem Backup mit Acronis wird immer die komplette Maschine
 gesichert, wobei Acronis intelligente Mechanismen in der Komprimierung
@@ -771,11 +754,9 @@ Wochenbackups)
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
 generierte
-Beschreibung](./media/image35.png){width="2.883421916010499in"
-height="2.097727471566054in"}![Ein Bild, das Text, Screenshot, Schrift,
+Beschreibung](./media/image35.png)![Ein Bild, das Text, Screenshot, Schrift,
 Zahl enthält. Automatisch generierte
-Beschreibung](./media/image36.png){width="2.9709153543307085in"
-height="1.4877504374453194in"}
+Beschreibung](./media/image36.png)
 
 Der Kunde wünschte sich diese lange Zeit des Restores primär, da seine
 Kundenprojekte in der Regel auch max. 2 Jahre dauern und für ihn eine
@@ -790,30 +771,26 @@ Backup-Plans verwalten und hinzufügen:
 
 ![Ein Bild, das Text, Schrift, Zahl, Reihe enthält. Automatisch
 generierte
-Beschreibung](./media/image37.png){width="4.329406167979003in"
-height="0.9988363954505687in"}
+Beschreibung](./media/image37.png)
 
 In unserer Ansicht aller Geräte werden die Geräte mit Schutzplan mit
 Status «OK» angezeigt, so hat man Bescheid, welche Devices aktuell
 gesichert werden.
 
 ![Ein Bild, das Text, Screenshot, Schrift enthält. Automatisch
-generierte Beschreibung](./media/image38.png){width="6.3in"
-height="1.55in"}
+generierte Beschreibung](./media/image38.png)
 
 Die aktuellen Backups können direkt im Cloud Storage eingesehen werden.
 
 ![Ein Bild, das Text, Schrift, Zahl, Screenshot enthält. Automatisch
-generierte Beschreibung](./media/image39.png){width="6.3in"
-height="2.120833333333333in"}
+generierte Beschreibung](./media/image39.png)
 
 Will man die bestimmten Versionen und Zeitpunkt des Backups sehen, kann
 man sich diese unter «Details» anzeigen lassen.
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
 generierte
-Beschreibung](./media/image40.png){width="2.874711286089239in"
-height="2.612654199475066in"}
+Beschreibung](./media/image40.png)
 
 Es kann vorkommen, dass Backups nicht durchgeführt werden können. Sollte
 dieser der Fall sein, benachrichtigt Acronis automatisch den IT-Admin
@@ -822,8 +799,7 @@ nicht benachrichtigt, kann man davon ausgehen, dass alles funktioniert
 hat.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
-Automatisch generierte Beschreibung](./media/image41.png){width="6.3in"
-height="3.095138888888889in"}
+Automatisch generierte Beschreibung](./media/image41.png)
 
 ####  9.2.3.1 Wiederherstellung der Daten mit Acronis
 
@@ -846,8 +822,7 @@ zwischen den Dateien/Ordner (Disk) und der kompletten Maschine (Server)
 entscheiden.
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte Beschreibung](./media/image42.png){width="6.3in"
-height="2.770138888888889in"}
+generierte Beschreibung](./media/image42.png)
 
 Wenn wir den Disk-Restore anwählen, öffnet sich ein Fenster, bei welchem
 wir die zu dem Zeitpunkt des Backups gesicherten Daten sehen. So kann
@@ -858,7 +833,7 @@ Prozess beendet wurde, können wir, wie gewöhnlich, auf Laufwerk E:
 zugreifen und sehen dort unsere Daten zum Stand des synchronisierten
 Backups.
 
-![](./media/image43.png){width="6.3in" height="2.0in"}
+![](./media/image43.png)
 
 Der Server-Restore läuft ähnlich ab, dazu wählen wir die «Komplette
 Maschine» restoren an. Folgend kann man auswählen, wie man den Server
@@ -870,8 +845,7 @@ Verfügung gestellt.
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
 generierte
-Beschreibung](./media/image44.png){width="3.004134951881015in"
-height="2.0352088801399826in"}
+Beschreibung](./media/image44.png)
 
 ###  9.2.4 Vorteile einer Automatisierung
 
@@ -1008,8 +982,7 @@ Abschnitt «Disaster Recovery» kann er den produktiven Server anwählen,
 und mit Failover eine VM in der Cloud von Acronis hosten.
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. Automatisch
-generierte Beschreibung](./media/image45.png){width="6.3in"
-height="3.2916666666666665in"}
+generierte Beschreibung](./media/image45.png)
 
 Bevor die VM hochgefahren wird, öffnet sich ein Fenster, bei welchem man
 zwischen «Failover testen» und «Produktions-Failover» auswählen kann. Da
@@ -1018,24 +991,21 @@ und das gewünschte Backup.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Software enthält. Automatisch
 generierte
-Beschreibung](./media/image46.png){width="3.205832239720035in"
-height="2.5686942257217846in"}
+Beschreibung](./media/image46.png)
 
 Nun wird der Server in der Cloud hochgefahren und wir können über eine
 Web-Konsole darauf zugreifen.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
 generierte
-Beschreibung](./media/image47.png){width="1.6524464129483813in"
-height="1.4959820647419073in"}
+Beschreibung](./media/image47.png)
 
 Wie gewöhnlich kann man sich jetzt auf mit dem entsprechenden Login
 anmelden und kommt auf dem Server-Desktop an.
 
 ![Ein Bild, das Text, Screenshot, Software, Computer enthält.
 Automatisch generierte
-Beschreibung](./media/image48.png){width="2.355725065616798in"
-height="1.3858584864391952in"}
+Beschreibung](./media/image48.png)
 
 Die Funktion der File-Shares sollte direkt als erstes überprüft werden,
 da sie der wichtigste Bestandteil des täglichen Geschäfts ausmachen.
@@ -1046,11 +1016,9 @@ Internetverbindung testen.
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält.
 Automatisch generierte
-Beschreibung](./media/image49.png){width="2.473857174103237in"
-height="1.381729002624672in"} ![Ein Bild, das Text, Schrift, Screenshot,
+Beschreibung](./media/image49.png) ![Ein Bild, das Text, Schrift, Screenshot,
 Reihe enthält. Automatisch generierte
-Beschreibung](./media/image50.png){width="3.977752624671916in"
-height="0.7541601049868767in"}
+Beschreibung](./media/image50.png)
 
 Nun sollte die Umgebung vollfunktionsfähig sein. Der Betrieb wäre somit
 gesichert, jedoch möchte man natürlich nicht ewig den Server in der
@@ -1060,16 +1028,14 @@ lässt sich via Acronis herunterladen, wenn man die betroffene Maschine
 anklickt und auf «Weitere Wiederherstellungsmöglichkeiten» klickt.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte Beschreibung](./media/image51.png){width="6.3in"
-height="2.5104166666666665in"}
+generierte Beschreibung](./media/image51.png)
 
 Unter diesem Reiter kann ein ISO-File heruntergeladen werden. Zusätzlich
 wird ein Registrierungstoken generiert, welcher den Zugriff auf die
 Cloud-Dateien, bei Boot mit dem heruntergeladenen ISO-File, ermöglicht.
 
 ![Ein Bild, das Text, Screenshot, Software, Schrift enthält. Automatisch
-generierte Beschreibung](./media/image52.png){width="6.3in"
-height="3.6868055555555554in"}
+generierte Beschreibung](./media/image52.png)
 
 Nun brennt man das ISO-File auf eine CD oder einen USB-Stick. Dieser
 kann am Server angeschlossen werden. Nun bootet man ab dem ISO-Medium
@@ -1078,24 +1044,21 @@ das neue Medium registrieren müssen.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 Automatisch generierte
-Beschreibung](./media/image53.png){width="2.582276902887139in"
-height="1.8752241907261593in"}
+Beschreibung](./media/image53.png)
 
 Drückt man auf «Register Media» können wir unseren vorher erhaltenen
 Registrierungstoken eintippen und absenden.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch
 generierte
-Beschreibung](./media/image54.png){width="2.9104330708661417in"
-height="2.1828248031496065in"}
+Beschreibung](./media/image54.png)
 
 Folgend können wir auswählen, was wir restoren möchten. Dazu klicken wir
 auf «Recover».
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Software enthält.
 Automatisch generierte
-Beschreibung](./media/image55.png){width="2.504106517935258in"
-height="1.8899496937882765in"}
+Beschreibung](./media/image55.png)
 
 Nun können wir auswählen, welches Backup wir restoren wollen. Zusätzlich
 müssen wir im unteren Bereich auswählen, welche Daten gerestored werden
@@ -1104,8 +1067,7 @@ alle 3 vorhanden Disks (C:, E: und Backup-Disk) restoren.
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Display enthält.
 Automatisch generierte
-Beschreibung](./media/image56.png){width="2.281321084864392in"
-height="1.7311078302712162in"}
+Beschreibung](./media/image56.png)
 
 Nun ist es wichtig die Disks, welche wir restoren wollen, den richtigen
 bestehenden Disks zuzuweisen. So sind wir sicher, dass es kein Problem
@@ -1117,8 +1079,7 @@ kann man das System ab dem C: des Servers booten.
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Software enthält.
 Automatisch generierte
-Beschreibung](./media/image57.png){width="3.3418700787401576in"
-height="2.5104549431321086in"}
+Beschreibung](./media/image57.png)
 
 Schlussendlich kann so die Umgebung, lokal, wieder zum Laufen gebracht
 werden. Bevor man den neu aufgesetzten Server startet, sollte man
@@ -1136,43 +1097,21 @@ Nachfolgend findet man eine Checkliste, nach welcher bei einem
 Schritte dokumentiert und man sollte sich an den vorgegebenen Ablauf
 halten.
 
-  ----------------------------------------------------------------------------------
-  **Schritt**   **Tätigkeit**                                            **Check**
-  ------------- -------------------------------------------------------- -----------
-  1             Information an den IT-Admin über Malware-Attacke         
-
-  2             Lokale Serversysteme werden heruntergefahren             
-
-                Zugangsdaten zur Acronis Cloud und alle Passwörter für   
-                den Server aus dem Safe des CEO anfordern, sofern        
-                notwendig und nicht vorhanden                            
-
-  3             «Disaster Recovery» mit Acronis: Server wird in der      
-                Cloud gehostet                                           
-
-  4             Test für Clients: Funktioniert der File-Share und das    
-                Internet?                                                
-
-  5             Beziehen eines ISO-Files von Acronis mit                 
-                Registrierungstoken                                      
-
-  6             ISO-File auf USB-Stick oder CD brennen                   
-
-  7             ISO-Medium an Server anschliessen und ab diesem booten   
-
-  8             Backup auf die vorhandenen Disks einspielen, so dass     
-                diese mit den Backup-Daten überschrieben werden          
-
-  9             Herunterfahren der Cloud-Server                          
-
-  10            Reboot des neu aufgesetzten, lokalen Servers             
-
-  11            Checks für Clients: Können Sie auf File-Shares und       
-                Internet zugreifen?                                      
-
-  12            Längerfristige Überwachung der Backups: Werden diese     
-                erfolgreich durchgeführt und gespeichert?                
-  ----------------------------------------------------------------------------------
+ |**Schritt**   |**Tätigkeit**                                           |**Check**|
+ |-------------|--------------------------------------------------------|---------|
+ |1             |Information an den IT-Admin über Malware-Attacke|         
+  |2             |Lokale Serversysteme werden heruntergefahren|             
+  |3|Zugangsdaten zur Acronis Cloud und alle Passwörter für den Server aus dem Safe des CEO anfordern, sofern notwendig und nicht vorhanden|                            
+  |4|             «Disaster Recovery» mit Acronis: Server wird in der Cloud gehostet |                                          
+  |5|             Test für Clients: Funktioniert der File-Share und das Internet?|                                            
+  |6|             Beziehen eines ISO-Files von Acronis mit Registrierungstoken|                                      
+ | 7|             ISO-File auf USB-Stick oder CD brennen|                   
+  |8|             ISO-Medium an Server anschliessen und ab diesem booten|   
+  |9|             Backup auf die vorhandenen Disks einspielen, so dass diese mit den Backup-Daten überschrieben werden|          
+  |10|            Herunterfahren der Cloud-Server|                          
+  |11|            Reboot des neu aufgesetzten, lokalen Servers|             
+  |12|            Checks für Clients: Können Sie auf File-Shares und Internet zugreifen?|                                      
+  |13|            Längerfristige Überwachung der Backups: Werden diese erfolgreich durchgeführt und gespeichert?|
 
 # 10. Qualitätskontrolle
 
