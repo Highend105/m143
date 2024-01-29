@@ -1,12 +1,6 @@
-Whitespace
+# Betriebskonzept: WhiteSpace
 
-Betriebskonzept
-
-Lukas Grüter
-
-M143
-
-# Inhaltsverzeichnis {#inhaltsverzeichnis .TOC-Heading}
+# Inhaltsverzeichnis
 
 [1. Einführung [2](#einführung)](#einführung)
 
@@ -275,14 +269,12 @@ Folgend wird auf die Konfiguration des Servers eingegangen. Hier sind
 die grundlegenden Einstellungen des Servers und dessen Domain zu sehen:
 
 ![Ein Bild, das Text, Schrift, Zahl, Screenshot enthält. Automatisch
-generierte Beschreibung](./media/image1.png){width="6.3in"
-height="2.3583333333333334in"}
+generierte Beschreibung](./media/image1.png)
 
 Weitere IP Einstellungen des Servers, wichtig ist hier die IP des
 Gateways zu betrachten:
 
-![](./media/image2.png){width="2.311234689413823in"
-height="2.540384951881015in"}
+![](./media/image2.png)
 
 Der Server läuft über das VMnet2, welches wie folgt eingestellt wurde:
 
