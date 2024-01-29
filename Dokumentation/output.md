@@ -8,10 +8,9 @@ M143
 
 # Inhaltsverzeichnis {#inhaltsverzeichnis .TOC-Heading}
 
-[1. Einführung ](#1-einführung)
+[1. Einführung [2](#einführung)](#einführung)
 
-[1.1 Einführung mit Zielsetzung](#11-einführung-mit-zielsetzung)
-
+[1.1 Einführung mit Zielsetzung
 [2](#einführung-mit-zielsetzung)](#einführung-mit-zielsetzung)
 
 [2. Organisation [2](#organisation)](#organisation)
@@ -80,24 +79,24 @@ M143
 [17](#cloud-backup-mit-acronis)](#cloud-backup-mit-acronis)
 
 [9.2.4 Vorteile einer Automatisierung
-[21](#vorteile-einer-automatisierung)](#vorteile-einer-automatisierung)
+[22](#vorteile-einer-automatisierung)](#vorteile-einer-automatisierung)
 
 [9.3 Daten, die gesichert werden
 [22](#daten-die-gesichert-werden)](#daten-die-gesichert-werden)
 
 [9.4 Regelung zur Wiederherstellung von Datenbeständen
-[22](#regelung-zur-wiederherstellung-von-datenbeständen)](#regelung-zur-wiederherstellung-von-datenbeständen)
+[23](#regelung-zur-wiederherstellung-von-datenbeständen)](#regelung-zur-wiederherstellung-von-datenbeständen)
 
 [9.4.1 Disaster Recovery -- Testszenario
-[23](#disaster-recovery-testszenario)](#disaster-recovery-testszenario)
+[24](#disaster-recovery-testszenario)](#disaster-recovery-testszenario)
 
 [10. Qualitätskontrolle [28](#qualitätskontrolle)](#qualitätskontrolle)
 
 [10.1 Datenschutzbestimmungen
-[28](#datenschutzbestimmungen)](#datenschutzbestimmungen)
+[29](#datenschutzbestimmungen)](#datenschutzbestimmungen)
 
 [10.2 Geschäftsbücherverordnung
-[29](#geschäftsbücherverordnung)](#geschäftsbücherverordnung)
+[30](#geschäftsbücherverordnung)](#geschäftsbücherverordnung)
 
 # 1. Einführung
 
@@ -775,12 +774,39 @@ generierte Beschreibung](./media/image34.png){width="6.3in"
 height="3.2840277777777778in"}
 
 Bei einem Backup mit Acronis wird immer die komplette Maschine
-gesichert. Das Backup-Ziel befindet sich im Cloud Storage, dort werden
-die Backups verschlüsselt abgelegt (AES 256). Jeden Sonntag um 02.00 Uhr
-soll ein Vollbackup durchgeführt werden, somit werden die Serversysteme
-wöchentlich in der Cloud gesichert. Insgesamt werden 90 Backups im
-Cloud-Speicher aufbewahrt, somit können wir die Server bis zu knapp 2
-Jahre (90 Wochen) zurück restoren.
+gesichert, wobei Acronis intelligente Mechanismen in der Komprimierung
+anwendet. Der Platzbedarf wird sich vermutlich über die Zeit nicht gross
+ändern. Es ist vorgesehen, den Speicherplatz im Rahmen der monatlichen
+Systemüberprüfung zu kontrollieren und allenfalls zu ergänzen. Das
+initiale Serverbackup benötigt einen Speicherplatz von 11.4 GB. Wir
+rechnen mit wenig Zuwachs und kalkulieren mit maximal 15 GB für ein
+Vollbackup. Zum Start hat man sich bewusst nur für Vollbackups
+entschieden, damit beim WorstCase Szenarien ein Restore oder ein Start
+aus der Cloud auch sehr einfach erfolgen kann. Das Backup-Ziel befindet
+sich im Cloud Storage, dort werden die Backups verschlüsselt abgelegt
+(AES 256). Jeden Sonntag um 02.00 Uhr soll ein Vollbackup durchgeführt
+werden, somit werden die Serversysteme wöchentlich in der Cloud
+gesichert. Insgesamt werden 90 Backups im Cloud-Speicher aufbewahrt,
+somit können wir die Server bis zu knapp 2 Jahre (90 Wochen) zurück
+restoren.
+
+Acronis hat verschiedene Preise, je nach Laufzeit. Initial hat man sich
+für ein Serverabo mit 1250 GB Storage für 5 Jahre entschieden. Dies
+ergibt monatliche Kosten von ca. 50 CHF. Wie oben erwähnt wird im Rahmen
+der monatlichen Checks die Speicherkapazität überprüft und allenfalls
+ergänzt. Zu einem späteren Zeitpunkt überlegt sich Herr Meier auch, nur
+noch die Backups der letzten 4 Wochen sowie alle Monatsbackups
+aufzubewahren. Dadurch verringern sich die Kopien über zwei Jahre auf
+max. 28 Backups (24 Monatsbackups und jeweils die letzten 4
+Wochenbackups)
+
+![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
+generierte
+Beschreibung](./media/image35.png){width="2.883421916010499in"
+height="2.097727471566054in"}![Ein Bild, das Text, Screenshot, Schrift,
+Zahl enthält. Automatisch generierte
+Beschreibung](./media/image36.png){width="2.9709153543307085in"
+height="1.4877504374453194in"}
 
 Der Kunde wünschte sich diese lange Zeit des Restores primär, da seine
 Kundenprojekte in der Regel auch max. 2 Jahre dauern und für ihn eine
@@ -794,21 +820,22 @@ Um einen Server dem Backup-Plan hinzuzufügen kann man die Geräte des
 Backup-Plans verwalten und hinzufügen:
 
 ![Ein Bild, das Text, Schrift, Zahl, Reihe enthält. Automatisch
-generierte Beschreibung](./media/image35.png){width="6.3in"
-height="1.4534722222222223in"}
+generierte
+Beschreibung](./media/image37.png){width="4.329406167979003in"
+height="0.9988363954505687in"}
 
 In unserer Ansicht aller Geräte werden die Geräte mit Schutzplan mit
 Status «OK» angezeigt, so hat man Bescheid, welche Devices aktuell
 gesichert werden.
 
 ![Ein Bild, das Text, Screenshot, Schrift enthält. Automatisch
-generierte Beschreibung](./media/image36.png){width="6.3in"
+generierte Beschreibung](./media/image38.png){width="6.3in"
 height="1.55in"}
 
 Die aktuellen Backups können direkt im Cloud Storage eingesehen werden.
 
 ![Ein Bild, das Text, Schrift, Zahl, Screenshot enthält. Automatisch
-generierte Beschreibung](./media/image37.png){width="6.3in"
+generierte Beschreibung](./media/image39.png){width="6.3in"
 height="2.120833333333333in"}
 
 Will man die bestimmten Versionen und Zeitpunkt des Backups sehen, kann
@@ -816,7 +843,7 @@ man sich diese unter «Details» anzeigen lassen.
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
 generierte
-Beschreibung](./media/image38.png){width="2.874711286089239in"
+Beschreibung](./media/image40.png){width="2.874711286089239in"
 height="2.612654199475066in"}
 
 Es kann vorkommen, dass Backups nicht durchgeführt werden können. Sollte
@@ -826,7 +853,7 @@ nicht benachrichtigt, kann man davon ausgehen, dass alles funktioniert
 hat.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
-Automatisch generierte Beschreibung](./media/image39.png){width="6.3in"
+Automatisch generierte Beschreibung](./media/image41.png){width="6.3in"
 height="3.095138888888889in"}
 
 ####  9.2.3.1 Wiederherstellung der Daten mit Acronis
@@ -850,7 +877,7 @@ zwischen den Dateien/Ordner (Disk) und der kompletten Maschine (Server)
 entscheiden.
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
-generierte Beschreibung](./media/image40.png){width="6.3in"
+generierte Beschreibung](./media/image42.png){width="6.3in"
 height="2.770138888888889in"}
 
 Wenn wir den Disk-Restore anwählen, öffnet sich ein Fenster, bei welchem
@@ -862,7 +889,7 @@ Prozess beendet wurde, können wir, wie gewöhnlich, auf Laufwerk E:
 zugreifen und sehen dort unsere Daten zum Stand des synchronisierten
 Backups.
 
-![](./media/image41.png){width="6.3in" height="2.0in"}
+![](./media/image43.png){width="6.3in" height="2.0in"}
 
 Der Server-Restore läuft ähnlich ab, dazu wählen wir die «Komplette
 Maschine» restoren an. Folgend kann man auswählen, wie man den Server
@@ -874,7 +901,7 @@ Verfügung gestellt.
 
 ![Ein Bild, das Text, Screenshot, Zahl, Schrift enthält. Automatisch
 generierte
-Beschreibung](./media/image42.png){width="3.004134951881015in"
+Beschreibung](./media/image44.png){width="3.004134951881015in"
 height="2.0352088801399826in"}
 
 ###  9.2.4 Vorteile einer Automatisierung
@@ -1012,7 +1039,7 @@ Abschnitt «Disaster Recovery» kann er den produktiven Server anwählen,
 und mit Failover eine VM in der Cloud von Acronis hosten.
 
 ![Ein Bild, das Text, Screenshot, Software, Zahl enthält. Automatisch
-generierte Beschreibung](./media/image43.png){width="6.3in"
+generierte Beschreibung](./media/image45.png){width="6.3in"
 height="3.2916666666666665in"}
 
 Bevor die VM hochgefahren wird, öffnet sich ein Fenster, bei welchem man
@@ -1022,7 +1049,7 @@ und das gewünschte Backup.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Software enthält. Automatisch
 generierte
-Beschreibung](./media/image44.png){width="3.205832239720035in"
+Beschreibung](./media/image46.png){width="3.205832239720035in"
 height="2.5686942257217846in"}
 
 Nun wird der Server in der Cloud hochgefahren und wir können über eine
@@ -1030,7 +1057,7 @@ Web-Konsole darauf zugreifen.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
 generierte
-Beschreibung](./media/image45.png){width="1.6524464129483813in"
+Beschreibung](./media/image47.png){width="1.6524464129483813in"
 height="1.4959820647419073in"}
 
 Wie gewöhnlich kann man sich jetzt auf mit dem entsprechenden Login
@@ -1038,7 +1065,7 @@ anmelden und kommt auf dem Server-Desktop an.
 
 ![Ein Bild, das Text, Screenshot, Software, Computer enthält.
 Automatisch generierte
-Beschreibung](./media/image46.png){width="2.355725065616798in"
+Beschreibung](./media/image48.png){width="2.355725065616798in"
 height="1.3858584864391952in"}
 
 Die Funktion der File-Shares sollte direkt als erstes überprüft werden,
@@ -1050,10 +1077,10 @@ Internetverbindung testen.
 
 ![Ein Bild, das Text, Screenshot, Software, Computersymbol enthält.
 Automatisch generierte
-Beschreibung](./media/image47.png){width="2.473857174103237in"
+Beschreibung](./media/image49.png){width="2.473857174103237in"
 height="1.381729002624672in"} ![Ein Bild, das Text, Schrift, Screenshot,
 Reihe enthält. Automatisch generierte
-Beschreibung](./media/image48.png){width="3.977752624671916in"
+Beschreibung](./media/image50.png){width="3.977752624671916in"
 height="0.7541601049868767in"}
 
 Nun sollte die Umgebung vollfunktionsfähig sein. Der Betrieb wäre somit
@@ -1064,7 +1091,7 @@ lässt sich via Acronis herunterladen, wenn man die betroffene Maschine
 anklickt und auf «Weitere Wiederherstellungsmöglichkeiten» klickt.
 
 ![Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch
-generierte Beschreibung](./media/image49.png){width="6.3in"
+generierte Beschreibung](./media/image51.png){width="6.3in"
 height="2.5104166666666665in"}
 
 Unter diesem Reiter kann ein ISO-File heruntergeladen werden. Zusätzlich
@@ -1072,7 +1099,7 @@ wird ein Registrierungstoken generiert, welcher den Zugriff auf die
 Cloud-Dateien, bei Boot mit dem heruntergeladenen ISO-File, ermöglicht.
 
 ![Ein Bild, das Text, Screenshot, Software, Schrift enthält. Automatisch
-generierte Beschreibung](./media/image50.png){width="6.3in"
+generierte Beschreibung](./media/image52.png){width="6.3in"
 height="3.6868055555555554in"}
 
 Nun brennt man das ISO-File auf eine CD oder einen USB-Stick. Dieser
@@ -1082,7 +1109,7 @@ das neue Medium registrieren müssen.
 
 ![Ein Bild, das Text, Screenshot, Software, Webseite enthält.
 Automatisch generierte
-Beschreibung](./media/image51.png){width="2.582276902887139in"
+Beschreibung](./media/image53.png){width="2.582276902887139in"
 height="1.8752241907261593in"}
 
 Drückt man auf «Register Media» können wir unseren vorher erhaltenen
@@ -1090,7 +1117,7 @@ Registrierungstoken eintippen und absenden.
 
 ![Ein Bild, das Text, Screenshot, Software, Display enthält. Automatisch
 generierte
-Beschreibung](./media/image52.png){width="2.9104330708661417in"
+Beschreibung](./media/image54.png){width="2.9104330708661417in"
 height="2.1828248031496065in"}
 
 Folgend können wir auswählen, was wir restoren möchten. Dazu klicken wir
@@ -1098,7 +1125,7 @@ auf «Recover».
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Software enthält.
 Automatisch generierte
-Beschreibung](./media/image53.png){width="2.504106517935258in"
+Beschreibung](./media/image55.png){width="2.504106517935258in"
 height="1.8899496937882765in"}
 
 Nun können wir auswählen, welches Backup wir restoren wollen. Zusätzlich
@@ -1108,7 +1135,7 @@ alle 3 vorhanden Disks (C:, E: und Backup-Disk) restoren.
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Display enthält.
 Automatisch generierte
-Beschreibung](./media/image54.png){width="2.281321084864392in"
+Beschreibung](./media/image56.png){width="2.281321084864392in"
 height="1.7311078302712162in"}
 
 Nun ist es wichtig die Disks, welche wir restoren wollen, den richtigen
@@ -1121,7 +1148,7 @@ kann man das System ab dem C: des Servers booten.
 
 ![Ein Bild, das Text, Elektronik, Screenshot, Software enthält.
 Automatisch generierte
-Beschreibung](./media/image55.png){width="3.3418700787401576in"
+Beschreibung](./media/image57.png){width="3.3418700787401576in"
 height="2.5104549431321086in"}
 
 Schlussendlich kann so die Umgebung, lokal, wieder zum Laufen gebracht
@@ -1219,6 +1246,11 @@ durchgeführt und protokolliert werden.
   6             In die Acronis Cloud einloggen und prüfen, ob Backups    
                 korrekt durchgeführt wurden, bei Fehlern den             
                 IT-Administrator kontaktieren.                           
+
+  7             In der Acronis Cloud prüfen, ob noch genügend            
+                Speicherplatz für die Backups vorhanden ist. Allenfalls  
+                Speicherplatz ergänzen oder in Absprache mit dem CEO die 
+                Backuppläne ändern und dokumentieren.                    
   ----------------------------------------------------------------------------------
 
 Die ausgefüllte Checkliste wird dem CEO retourniert. Allfällige Probleme
