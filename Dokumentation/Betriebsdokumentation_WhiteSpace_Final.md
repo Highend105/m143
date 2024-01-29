@@ -2,21 +2,17 @@
 
 # Inhaltsverzeichnis
 
-[1. Einführung [2](#einführung)](#einführung)
+[1. Einführung](#einführung)
 
-[1.1 Einführung mit Zielsetzung
-[2](#einführung-mit-zielsetzung)](#einführung-mit-zielsetzung)
+[1.1 Einführung mit Zielsetzung](#einführung-mit-zielsetzung)
 
-[2. Organisation [2](#organisation)](#organisation)
+[2. Organisation](#organisation)
 
-[2.1 Betriebsphilosophie
-[2](#betriebsphilosophie)](#betriebsphilosophie)
+[2.1 Betriebsphilosophie](#betriebsphilosophie)
 
-[2.2 Verantwortlichkeiten
-[2](#verantwortlichkeiten)](#verantwortlichkeiten)
+[2.2 Verantwortlichkeiten](#verantwortlichkeiten)
 
-[3. Bestehende Infrastruktur
-[3](#bestehende-infrastruktur)](#bestehende-infrastruktur)
+[3. Bestehende Infrastruktur](#bestehende-infrastruktur)
 
 [3.1 Lokalitäten [3](#lokalitäten)](#lokalitäten)
 
